@@ -1,5 +1,5 @@
 
-def battery_is_ok(temperature, soc):
+def battery_is_ok(temperature, soc,charge_rate):
     if temperature > 45:
         print('Temperature is out of range!')
         return False
